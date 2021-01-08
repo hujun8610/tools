@@ -1,0 +1,21 @@
+order:
+  info:
+    status:
+      change:
+        rocketmq:
+          topic: order_info_status_change_rocketmq_topic
+  main:
+    status:
+      change:
+        rocket:
+          topic: order_status_change_rocketmq_topic
+
+rocketmq:
+  name-server: rocketmq-1169816974305218562-001.cmcdcp-cli.svc.cluster.local:9876
+#  name-server: 10.71.164.32:9876
+#  name-server: rocketmq-1206847778214694914-002.cmcdcp-cli.svc.cluster.local:9876
+  producer:
+        group: cmsc_ummp_buy_group
+
+orderfile: /home/app/ummp-gateway/order.txt
+#orderfile: /Users/hujun/Desktop/order.log
