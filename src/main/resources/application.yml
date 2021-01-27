@@ -9,6 +9,12 @@ order:
       change:
         rocket:
           topic: order_status_change_rocketmq_topic
+  ordersync:
+    async:
+      order:
+        status:
+          topic: ordersync_async_order_status_topic
+
 
 rocketmq:
   #生产环境
