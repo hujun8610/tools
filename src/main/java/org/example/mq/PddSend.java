@@ -1,4 +1,4 @@
-package org.example;
+package org.example.mq;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.SendResult;
@@ -19,7 +19,7 @@ import java.util.List;
  * @createTime 2021-01-07 21:12:00
  */
 @Slf4j
-@Component
+//@Component
 public class PddSend implements CommandLineRunner {
 
     @Value("${order.main.status.change.rocket.topic}")

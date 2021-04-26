@@ -1,4 +1,4 @@
-package org.example;
+package org.example.mq;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

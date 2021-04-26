@@ -28,3 +28,9 @@ rocketmq:
 
 orderfile: /home/app/ummp-gateway/order.txt
 #orderfile: /Users/hujun/Desktop/order.log
+
+cmic:
+  forward:
+    api:
+      url: https://gr-proxyservice.prod.com:32908/grproxy/jump/rightsJump
+      key: coczijiEqUan66$%Yi~!@#$treasure
